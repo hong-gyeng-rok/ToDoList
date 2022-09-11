@@ -1,0 +1,14 @@
+.clock {
+  background-color: #3e7572;
+  color: aliceblue;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 380%;
+  font-weight: lighter;
+  /*
+    color: aliceblue;
+    */
+  text-align: center;
+}

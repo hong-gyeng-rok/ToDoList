@@ -1,0 +1,13 @@
+:root {
+  --padding: 20px;
+}
+
+.quotes-form {
+  background-color: #fac5c3;
+  position: absolute;
+  bottom: 0;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}

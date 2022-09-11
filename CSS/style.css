@@ -1,0 +1,30 @@
+body {
+  background-color: #f9fadc;
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #cbf5f2;
+  position: absolute;
+  left: 0;
+  width: 750px;
+  border-radius: 25%;
+  margin-top: 50px;
+  margin-left: 30px;
+  padding-bottom: 50px;
+}
+
+.contents {
+  background-color: #a1c2c0;
+  width: 400px;
+  height: 550px;
+  margin-top: 50px;
+  border-radius: 20px;
+}

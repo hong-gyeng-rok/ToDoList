@@ -4,9 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/login_form.css" />
+    <link rel="stylesheet" href="CSS/clcok.css" />
+    <link rel="stylesheet" href="CSS/quotes.css" />
+    <link rel="stylesheet" href="CSS/todo.css" />
+
+    <title>ToDoList</title>
   </head>
   <body>
-    <h1>HELLO WORLD</h1>
+    <div class="main">
+      <div class="contents">
+        <h2 id="clock" class="clock">00:00:00</h2>
+        <!--logInForm-->
+        <form class="hidden login-form" id="login-form">
+          <!--user name input-->
+          <input
+            class="login-input"
+            required
+            maxlength="5"
+            type="text"
+            placeholder="What is your name?"
+          />
+          <button class="login_button btn">Log In</button>
+        </form>
+        <!--log out-->
+        <button id="logout-button" class="hidden logout-button btn">
+          Log Out
+        </button>
+        <h1 id="greeting" class="hidden greeting"></h1>
+        <div class="todo-list-form">
+          <form id="todo-form" class="todo-form">
+            <input
+              class="todo-input"
+              placeholder="Write a To Do and Press Enter"
+              type="text"
+              required
+            />
+          </form>
+          <ul id="todo-list" class="todo-list"></ul>
+        </div>
+        <div id="weather" class="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div class="quotes-form">
+      <span id="quote" class="quote"></span><br />
+      <span id="author" class="author"></span>
+    </div>
+    <button id="exit-btn" class="exit-btn">EXIT</button>
+    <script src="JS/clock.js"></script>
+    <script src="JS/login_form.js"></script>
+    <script src="JS/quotes.js"></script>
+    <script src="JS/todo.js"></script>
+    <script src="JS/weather.js"></script>
   </body>
 </html>
